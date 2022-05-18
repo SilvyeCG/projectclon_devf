@@ -13,6 +13,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
     align-self: start;
+    position: fixed;
+    width: 100vw;
 }
 
 .letras{
@@ -219,3 +221,53 @@ body {
     text-align: center;
 }
 
+
+ /* galeria */
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 88vw;
+    margin-left: 4vw;
+
+    
+}
+
+.publicacion{
+    
+    width: 20vw;
+    margin-left: 2vw;
+    margin-bottom: 3vw;
+}
+
+.publicacion img{
+    width: 100%;
+    margin-bottom: 1vw;
+}
+
+.publicacion:hover{
+    transform: scale(1.2);
+    transition-duration: 500ms ;
+    background-color: rgb(226, 214, 214);
+}
+
+
+.reacciones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    color: cornflowerblue;
+}
+
+/* footer */
+
+footer{
+    /* width: 80vw;
+    align-items: center; */
+    text-align: center;
+    color: black;
+    /* font-family: 'Koulen', cursive; */
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Raleway', sans-serif;
+
+}
