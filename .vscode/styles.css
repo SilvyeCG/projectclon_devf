@@ -225,14 +225,12 @@ body {
  /* galeria */
 
 .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 88vw;
+    margin-left: 4vw;
+
     
-    margin: 3rem auto;
-    width:100%;
-    max-width:960px;
-    column-count: 3;
-    
-    
-     
 }
 
 .publicacion{
@@ -240,7 +238,6 @@ body {
     width: 20vw;
     margin-left: 2vw;
     margin-bottom: 3vw;
-    
 }
 
 .publicacion img{
